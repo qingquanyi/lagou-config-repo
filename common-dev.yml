@@ -16,12 +16,12 @@ spring:
     password: root
 #验证码有效时间：毫秒单位 1000*60*10=10分钟
 authcode:
-  expiretime: 600000
+  expire_time: 600000
 
 #ip防爆刷配置：多少分钟内，请求限制多少
 ip:
   minute: 1 #单位分钟
-  maxreqnum: 8
+  max_req_num: 8
 
 #暴露所有通信端点
 management:
