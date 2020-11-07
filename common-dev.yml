@@ -11,7 +11,7 @@ spring:
     show-sql: true
   datasource: #数据库配置
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud-edu?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/cloud-lagou?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
 #验证码有效时间：毫秒单位 1000*60*100=100分钟
